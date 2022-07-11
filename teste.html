@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="charset" content="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial TESTE</title> <!--Título da página-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Fonte Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Fonte Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> <!--Fonte Google-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+ </head>
+
+<body> 
+        <!--NAVBAR LOGO STEFANINI-->
+        <nav>
+            <div class="nav-wrapper" style="background-color: #aeec33; align-items: stretch;">
+              <a href="/index.html" class="brand-logo center"><img src="./img/logo.png" width="200px"></a>
+              <ul id="nav-mobile" class="left hide-on-med-and-down"></ul>
+            </div>
+          </nav>
+    
+          
+        <!--Nav-bar opções-->
+        <nav style="background-color: #e8ffbb; margin-top: 3px">
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/index.html" style="color: rgb(34, 145, 24); border-radius: 80px;"><b>Página inicial</b></a></li>
+            <li><a href="/espec.html" style="color: rgb(34, 145, 24); border-radius: 80px;"><b>Equipamentos</b></a></li>
+            <li><a href="contatos.html" style="color: rgb(34, 145, 24); border-radius: 80px;"><b>Contatos</b></a></li>
+            <li><a href="/duvidas.html" style="color: rgb(34, 145, 24); border-radius: 80px;"><b>Dúvidas</b></a></li>
+          </ul>
+        </nav>
+
+
+<div class="container">
+<h3>Materialize Carousel Demo</h3>
+<div class="carousel" id="demo-carousel">
+    <a class="carousel-item" href="#one!"><img src="/img/3420.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="/img/7560.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="/img/foto 1.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="/img/foto 2.webp"></a>
+    <a class="carousel-item" href="#five!"><img src="/img/foto 1.jpg"></a>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+      $('#demo-carousel').carousel();
+    });
+</script>
+
+ <!--FOOTER-->
+ <div id="footer" style="margin-top: 100px">
+    <footer class="page-footer" style="background-color: rgb(181, 247, 83);">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="green-text" style="font-size: 20px;"><b>Tem mais alguma dúvida?</b></h5>
+            <p class="light green-text" style="cursor: pointer"><b>Entre em contato conosco via 3313-1316 + 8 + 1</b></p>
+          </div>
+          <div class="col l2 offset-l2 s12">
+            <a href="#" class="brand-logo center"><img src="./img/logo-emb-stefanini.png" width="200px" style="position:relative; left: 180px"></a>
+    
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container" style="color: green; margin-top: 70px;">
+          © 2022 Desenvolvido por Alex Santos
+          <a class="text-lighten-4 right" href="#!" style="color:green; cursor:auto;">Stefanini</a>
+        </div>
+      </div>
+    </footer>
+</div>
+
+</body>   
+</html>
